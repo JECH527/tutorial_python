@@ -69,3 +69,17 @@ print(valor1 < valor2) #Menor que
 print(valor1 >= valor2) #Mayor igual que
 print(valor1 <= valor2) #Menor igual que
 print(valor1 != valor2) #No igual
+
+#Funciones
+"""
+Las fncuones son un bloque de codigo que solo se ejecutan cuando se llaman
+"""
+def mi_funcion():
+    print("¡Feliz dia!")
+
+mi_funcion() #invocar la funcion
+
+def mensaje(nombre):
+    print("¡Feliz dia! "+ nombre)
+
+mensaje("Estheban")
