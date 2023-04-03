@@ -5,7 +5,7 @@ Dentro de la clase se crean unos metodos, estos serán los encargados de manipul
 a los modelos, en estos se programarán las tareas básicas tales como crear, listar,
 visualizar, modificar y eliminar. (CRUD)
 """
-class ControladorEstudiante():
+class miControladorEstudiante():
 
    """
 

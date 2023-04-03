@@ -4,7 +4,7 @@ from flask import request
 from flask_cors import CORS
 import json
 from waitress import serve
-from Controladores.ControladorEstudiante import ControladorEstudiante
+from Controladores.ControladorEstudiante import miControladorEstudiante
 from Controladores.ControladorDepartamento import ControladorDepartamento
 from Controladores.ControladorInscripcion import ControladorInscripcion
 from Controladores.ControladorMateria import ControladorMateria
@@ -21,7 +21,7 @@ cors = CORS(app)
 Implemetacion de los metodos
 """
 
-miControladorEstudiante = ControladorEstudiante()
+miControladorEstudiante = miControladorEstudiante()
 
 """
 Servicios que el servidor ofrecerá; se definen las rutas
